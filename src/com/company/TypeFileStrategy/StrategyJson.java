@@ -1,18 +1,19 @@
-package com.company;
+package com.company.TypeFileStrategy;
 
+import com.company.engine.TreeNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.yaml.YAMLMapper;
+import com.fasterxml.jackson.databind.json.JsonMapper;
 
 import java.io.File;
 import java.io.IOException;
 import java.util.Locale;
 
-public class StrategyYaml implements StrategyFile{
+public class StrategyJson implements StrategyFile {
     private final String fileName;
-    private final ObjectMapper objectMapper = new YAMLMapper();
+    private final ObjectMapper objectMapper = new JsonMapper();
 
-    public StrategyYaml(Locale locale) {
-        this.fileName = getLanguageType(locale) + ".yaml";
+    public StrategyJson(Locale locale) {
+        this.fileName = getLanguageType(locale) + ".json";
     }
 
     @Override
@@ -38,4 +39,5 @@ public class StrategyYaml implements StrategyFile{
             e.printStackTrace();
         }
     }
+
 }

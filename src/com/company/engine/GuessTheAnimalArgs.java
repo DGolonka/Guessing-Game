@@ -1,4 +1,4 @@
-package com.company;
+package com.company.engine;
 
 import com.beust.jcommander.Parameter;
 

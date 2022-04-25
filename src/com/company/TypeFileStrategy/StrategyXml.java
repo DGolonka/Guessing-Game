@@ -1,12 +1,13 @@
-package com.company;
+package com.company.TypeFileStrategy;
 
+import com.company.engine.TreeNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import java.io.File;
 import java.io.IOException;
 import java.util.Locale;
 
-public class StrategyXml implements StrategyFile{
+public class StrategyXml implements StrategyFile {
     private final String fileName;
     private final ObjectMapper objectMapper = new XmlMapper();
 

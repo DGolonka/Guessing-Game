@@ -1,4 +1,6 @@
-package com.company;
+package com.company.TypeFileStrategy;
+
+import com.company.engine.TreeNode;
 
 import java.util.Locale;
 

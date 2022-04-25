@@ -1,6 +1,11 @@
 package com.company;
 
 import com.beust.jcommander.JCommander;
+import com.company.TypeFileStrategy.ChooseFileStrategyType;
+import com.company.TypeFileStrategy.StrategyFile;
+import com.company.engine.GuessTheAnimalArgs;
+import com.company.engine.Menu;
+
 import java.util.Locale;
 
 public class Main {

@@ -1,10 +1,12 @@
-package com.company;
+package com.company.TypeFileStrategy;
+
+import com.company.engine.GuessTheAnimalArgs;
 
 import java.util.Locale;
 
 public class ChooseFileStrategyType {
     public static StrategyFile choseStrategy(GuessTheAnimalArgs guessTheAnimalArgs,
-        Locale locale) {
+                                             Locale locale) {
         String typeFile = guessTheAnimalArgs.getTypeFile();
         if (typeFile.equals("json")) {
             return new StrategyJson(locale);

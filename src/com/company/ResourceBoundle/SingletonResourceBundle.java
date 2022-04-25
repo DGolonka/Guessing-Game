@@ -1,4 +1,4 @@
-package com.company;
+package com.company.ResourceBoundle;
 
 import java.util.Locale;
 import java.util.ResourceBundle;

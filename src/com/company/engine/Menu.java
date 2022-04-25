@@ -1,4 +1,8 @@
-package com.company;
+package com.company.engine;
+
+import com.company.ResourceBoundle.SingletonResourceBundle;
+import com.company.TypeFileStrategy.StrategyFile;
+import com.company.engine.GuessTheAnimal;
 
 import java.time.LocalTime;
 import java.util.ResourceBundle;
