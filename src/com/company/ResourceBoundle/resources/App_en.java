@@ -1,4 +1,4 @@
-package com.company.resources;
+package com.company.ResourceBoundle.resources;
 
 import java.util.ListResourceBundle;
 import java.util.Map;

@@ -9,7 +9,7 @@ public class SingletonResourceBundle {
 
     public static ResourceBundle getInstance() {
         if (resourceBundle == null) {
-            resourceBundle = ResourceBundle.getBundle("com.company.resources.App",
+            resourceBundle = ResourceBundle.getBundle("com.company.ResourceBoundle.resources.App",
                     Locale.ENGLISH);
         }
         return resourceBundle;
