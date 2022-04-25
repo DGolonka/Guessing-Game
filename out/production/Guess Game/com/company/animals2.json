@@ -1,0 +1,9 @@
+{
+  "data" : "Is it a mammal?\r\n",
+  "yes" : {
+    "data" : "a cat"
+  },
+  "no" : {
+    "data" : "a shark"
+  }
+}
